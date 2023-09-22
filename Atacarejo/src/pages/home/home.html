@@ -1,0 +1,50 @@
+<ion-content padding class="auto-scroll">
+  <ion-grid fixed>
+    <ion-row align-items-center justify-content-center>
+      <ion-col col-12 col-sm-12 col-md-6>
+        <ion-list no-lines class="caixa-de-acesso">
+          <ion-item class="caixa-input">
+            <ion-input
+              type="email"
+              placeholder="E-mail"
+              class="acesso-email"
+            ></ion-input>
+          </ion-item>
+          <ion-item class="caixa-input">
+            <ion-input
+              type="password"
+              placeholder="Senha"
+              class="acesso-senha"
+            ></ion-input>
+          </ion-item>
+          <button ion-button block large class="btn-entrar">Entrar</button>
+          <button
+            small
+            ion-button
+            block
+            (click)="goToRecovery()"
+            class="btn-esqueci-senha"
+          >
+            <small>Esqueci a senha</small>
+          </button>
+        </ion-list>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
+
+<ion-footer class="rodape-cadastre">
+  <ion-toolbar text-center color="atacarejo">
+    <ion-buttons>
+      <button
+        small
+        ion-button
+        block
+        (click)="goToSignup()"
+        class="btn-cadastre"
+      >
+        <small>Ainda não tem conta?&nbsp;<strong>Cadastre-se</strong></small>
+      </button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-footer>

@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Oleo+Script|Fira+Sans:300');
+
+
+ion-content {
+  font-family: Verdana;
+}
+
+.auto-scroll .scroll-content {
+  overflow: auto;
+}
+
+.alert-confirm .alert-Title {
+  background: yellow;
+}
+
+page-login {
+  .auto-scroll {
+    background-image: url(../../assets/imgs/1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .rodape-cadastre {
+    height: 35px;
+  }
+  .btn-cadastre {
+    position: relative;
+    top: -9px;
+    background: #0B990B;
+    color: #fff;
+    font-size: 15px;
+  }
+  .caixa-de-acesso {
+      position: relative;
+      width: 300px;
+      height: 180px;
+      margin: 0 auto;
+      top: 21em;
+  }
+  .caixa-input {
+    background: transparent;
+  }
+  .acesso-email, .acesso-senha {
+    border-radius: 12px;
+    border: 1px solid gray;
+    background-color: #f5f5f5;
+    padding-left: 5px;
+    padding-right: 5px;
+
+  }
+  .acesso-email{
+    margin: 0 0 2px 0;
+  }
+  .acesso-senha {
+    margin: 2px 0 5px 0;
+  }
+  .btn-entrar {
+    background: #0B990B;
+    width: 275px;
+    height: 40px;
+    left: 15px;
+    border-radius: 12px;
+  }
+  .btn-entrar:active {
+    background: #1db91d;
+  }
+
+  .btn-esqueci-senha {
+    color: #424141;
+    width: 150px;
+    left: 79px;
+    background: #f5f5f5;
+    border-radius: 12px;
+    margin-top: 7px;
+  }
+  .btn-esqueci-senha:active {
+    background: #1db91d;
+    color: #fff;
+  }
+
+}
+
+page-signup {
+  .auto-scroll {
+    background-image: url(../assets/imgs/queremos-ajudar-voce.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .rodape-entre {
+    height: 35px;
+  }
+  .btn-entre {
+    position: relative;
+    top: -9px;
+    background: #0B990B;
+    color: #fff;
+    font-size: 15px;
+  }
+  .caixa-de-acesso {
+      position: relative;
+      width: 300px;
+      height: 180px;
+      margin: 0 auto;
+      top: 21em;
+  }
+  .caixa-input {
+    background: transparent;
+  }
+  .cadastro-email, .cadastro-senha, .cadastro-confirma-senha{
+    border-radius: 12px;
+    border: 1px solid gray;
+    background-color: #f5f5f5;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .cadastro-email{
+    margin: 0 0 2px 0;
+  }
+  .cadastro-senha {
+    margin: 2px 0 2px 0;
+  }
+  .cadastro-confirma-senha {
+    margin: 2px 0 4px 0;
+  }
+  .btn-cadastrar {
+    background: #0B990B;
+    width: 275px;
+    height: 40px;
+    left: 15px;
+    border-radius: 12px;
+  }
+  .btn-cadastrar:active {
+    background: #1db91d;
+  }
+
+}
+
+page-recovery {
+  .auto-scroll {
+    background-image: url(../assets/imgs/nossos-contatos.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .caixa-de-envio {
+      position: relative;
+      width: 300px;
+      height: 180px;
+      margin: 0 auto;
+      top: 28em;
+  }
+  .caixa-input {
+    background: transparent;
+  }
+  .envio-email {
+    border-radius: 12px;
+    border: 1px solid gray;
+    background-color: #f5f5f5;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 0 0 2px 0;
+
+  }
+  .btn-enviar {
+    background: #0B990B;
+    width: 275px;
+    height: 40px;
+    left: 15px;
+    border-radius: 12px;
+  }
+  .btn-enviar:active {
+    background: #1db91d;
+  }
+  .rodape-cadastre {
+    height: 35px;
+  }
+  .btn-cadastre {
+    position: relative;
+    top: -9px;
+    background: #0B990B;
+    color: #fff;
+    font-size: 15px;
+  }
+
+}
+

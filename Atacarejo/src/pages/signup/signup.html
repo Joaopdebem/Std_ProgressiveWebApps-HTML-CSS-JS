@@ -1,0 +1,50 @@
+<ion-content padding class="auto-scroll">
+  <ion-grid fixed>
+    <ion-row align-items-center justify-content-center>
+      <ion-col col-12 col-sm-12 col-md-6>
+        <ion-list no-lines class="caixa-de-acesso">
+          <ion-item class="caixa-input">
+            <ion-input
+              type="email"
+              placeholder="E-mail"
+              class="cadastro-email"
+            ></ion-input>
+          </ion-item>
+          <ion-item class="caixa-input">
+            <ion-input
+              type="password"
+              placeholder="Senha"
+              class="cadastro-senha"
+            ></ion-input>
+          </ion-item>
+          <ion-item class="caixa-input">
+            <ion-input
+              type="password"
+              placeholder="Confirme a senha"
+              class="cadastro-confirma-senha"
+            ></ion-input>
+          </ion-item>
+          <button
+            ion-button
+            block
+            large
+            class="btn-cadastrar"
+            (click)="alertConfirmAccount()"
+          >
+            Cadastrar
+          </button>
+        </ion-list>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
+
+<ion-footer class="rodape-entre">
+  <ion-toolbar text-center color="atacarejo">
+    <ion-buttons>
+      <button small ion-button block (click)="goToLogin()" class="btn-entre">
+        <small>Já tem conta?&nbsp;<strong>Entre</strong></small>
+      </button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-footer>

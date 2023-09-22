@@ -1,0 +1,34 @@
+<ion-content padding class="auto-scroll">
+  <ion-grid fixed>
+    <ion-row align-items-center justify-content-center>
+      <ion-col col-12 col-sm-12 col-md-6>
+        <ion-list no-lines class="caixa-de-envio">
+          <ion-item class="caixa-input">
+            <ion-input
+              type="email"
+              placeholder="E-mail para redefinir senha"
+              class="envio-email"
+            ></ion-input>
+          </ion-item>
+          <button ion-button block large class="btn-enviar">Enviar</button>
+        </ion-list>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
+
+<ion-footer class="rodape-cadastre">
+  <ion-toolbar text-center color="atacarejo">
+    <ion-buttons>
+      <button
+        small
+        ion-button
+        block
+        (click)="goToSignup()"
+        class="btn-cadastre"
+      >
+        <small>Lembrou sua senha?&nbsp;<strong>Entre</strong></small>
+      </button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-footer>

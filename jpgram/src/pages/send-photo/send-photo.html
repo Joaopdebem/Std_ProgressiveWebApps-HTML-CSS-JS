@@ -1,0 +1,59 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title text-center class="oleo-script">JpGram</ion-title>
+    <ion-buttons start>
+      <button ion-button (click)="dismiss()">
+        <ion-icon name="close"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="auto-scroll">
+  <ion-card>
+    <ion-slides>
+      <ion-slide text-center>
+        <img src="http://lorempixel.com.br/512/512" alt="" class="inkwell" />
+        <small>inkwell</small>
+      </ion-slide>
+      <ion-slide text-center>
+        <img src="http://lorempixel.com.br/512/512" alt="" class="willow" />
+        <small>willow</small>
+      </ion-slide>
+      <ion-slide text-center>
+        <img src="http://lorempixel.com.br/512/512" alt="" class="nashville" />
+        <small>nashville</small>
+      </ion-slide>
+    </ion-slides>
+
+    <ion-card-content>
+      <ion-list no-lines>
+        <ion-item>
+          <ion-input type="text" placeholder="Título"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-textarea placeholder="Mensagem" rows="3"></ion-textarea>
+        </ion-item>
+      </ion-list>
+    </ion-card-content>
+
+    <ion-row no-padding>
+      <ion-col>
+        <button
+          ion-button
+          clear
+          small
+          color="danger"
+          icon-start
+          *ngIf="location == ''"
+          (click)="getLocation()"
+        >
+          <ion-icon name="pin">Ativar localização</ion-icon>
+        </button>
+      </ion-col>
+    </ion-row>
+    <div padding>
+      <button ion-button block large outline>Enviar</button>
+    </div>
+  </ion-card>
+</ion-content>

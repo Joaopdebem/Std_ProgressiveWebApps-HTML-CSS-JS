@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Oleo+Script|Fira+Sans:300');
+
+@font-face{
+  font-family: 'Billabong';
+  src:url('../assets/fonts/Billabong.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Segoi UI';
+  src: url('../assets/fonts/segoiui.ttf') format('truetype');
+}
+
+.oleo-script {
+  font-family: 'Billabong';
+  font-size: 4.5em;
+}
+
+ion-content {
+  font-family: 'Fira sans', sans-serif;
+}
+
+.auto-scroll .scroll-content {
+  overflow: auto;
+}
+
+page-login,
+page-signup {
+  ion-input {
+    background-color:  #FAFAFA !important;
+    border: 1px solid #dbdbdb !important;
+    border-radius: 3px;
+    color: #999999 !important;
+    margin-bottom: 10px;
+  }
+  ion-input,
+  ion-button {
+    font-size: 0.8em !important;
+  }
+}

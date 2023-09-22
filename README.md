@@ -1,1 +1,1 @@
-# Std_ProgressiveWebApps-HTML-CSS-JS
+# Aplicativo para projetos pessoais com Javascript.
